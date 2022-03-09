@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		488BB53827D87F210088C8BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488BB53727D87F210088C8BB /* AppDelegate.swift */; };
 		488BB53A27D87F210088C8BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488BB53927D87F210088C8BB /* SceneDelegate.swift */; };
-		488BB53C27D87F210088C8BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488BB53B27D87F210088C8BB /* ViewController.swift */; };
 		488BB53F27D87F210088C8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488BB53D27D87F210088C8BB /* Main.storyboard */; };
 		488BB54127D87F220088C8BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488BB54027D87F220088C8BB /* Assets.xcassets */; };
 		488BB54427D87F220088C8BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488BB54227D87F220088C8BB /* LaunchScreen.storyboard */; };
+		488BB54C27D882870088C8BB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488BB54B27D882870088C8BB /* TableViewController.swift */; };
+		488BB54E27D886E90088C8BB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488BB54D27D886E90088C8BB /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		488BB53427D87F210088C8BB /* C4_1_TableVew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4_1_TableVew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		488BB53727D87F210088C8BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		488BB53927D87F210088C8BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		488BB53B27D87F210088C8BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		488BB53E27D87F210088C8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		488BB54027D87F220088C8BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		488BB54327D87F220088C8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		488BB54527D87F220088C8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488BB54B27D882870088C8BB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		488BB54D27D886E90088C8BB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				488BB53727D87F210088C8BB /* AppDelegate.swift */,
 				488BB53927D87F210088C8BB /* SceneDelegate.swift */,
-				488BB53B27D87F210088C8BB /* ViewController.swift */,
 				488BB53D27D87F210088C8BB /* Main.storyboard */,
+				488BB54D27D886E90088C8BB /* TableViewCell.swift */,
+				488BB54B27D882870088C8BB /* TableViewController.swift */,
 				488BB54027D87F220088C8BB /* Assets.xcassets */,
 				488BB54227D87F220088C8BB /* LaunchScreen.storyboard */,
 				488BB54527D87F220088C8BB /* Info.plist */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				488BB53C27D87F210088C8BB /* ViewController.swift in Sources */,
 				488BB53827D87F210088C8BB /* AppDelegate.swift in Sources */,
+				488BB54E27D886E90088C8BB /* TableViewCell.swift in Sources */,
+				488BB54C27D882870088C8BB /* TableViewController.swift in Sources */,
 				488BB53A27D87F210088C8BB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
